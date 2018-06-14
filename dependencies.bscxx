@@ -1,0 +1,4 @@
+BSCXX_PROJECT:
+	[raylib]:^1.0.0	|	
+
+BSCXX_DEPENDENCIES:

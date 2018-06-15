@@ -1,13 +1,13 @@
 project(test_raylib)
 
-include("../raylib/cmake/utils.cmake")
+include("../raylib_sources/cmake/utils.cmake")
 
 # Make sure raylib has been built
 # TODO `build` directory should maybe be something else...
 # TODO place somewhere else?
-include_directories("../raylib/build/release")
-include_directories("../raylib/src/external")
-include_directories("../raylib/src/external/glfw/include")
+include_directories("../raylib_sources/build/release")
+include_directories("../raylib_sources/src/external")
+include_directories("../raylib_sources/src/external/glfw/include")
 
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 

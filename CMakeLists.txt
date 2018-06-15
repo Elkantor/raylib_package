@@ -11,7 +11,7 @@ if (MSVC)
 endif (MSVC)
 
 ## Add executables ##
-	add_subdirectory (raylib)
+	add_subdirectory (raylib_sources)
 	add_subdirectory (src)
 	add_subdirectory (test)
 ## End of adding executables ##

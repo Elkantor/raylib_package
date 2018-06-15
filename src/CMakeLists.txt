@@ -1,4 +1,4 @@
-project(test_raylib)
+project(raylib)
 
 include("../raylib/cmake/utils.cmake")
 
